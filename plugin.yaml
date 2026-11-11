@@ -1,0 +1,16 @@
+name: pfwa
+version: "1.0.0"
+description: "Provably fair randomness for Hermes (draws, coin flips, winner picks from the drand beacon, with proof) plus prediction markets on Robinhood Chain: browse live PFWA markets, get onchain prices, check a wallet's positions and winnings, and build unsigned trade transactions for your own wallet to sign."
+author: PFWA
+requires_hermes: ">=0.21.6"
+provides_tools:
+  - pfwa_random
+  - pfwa_markets
+  - pfwa_quote
+  - pfwa_positions
+  - pfwa_build_tx
+  - pfwa_results
+  - hoodrand_lookup
+  - sherwood_game
+provides_hooks: []
+requires_env: []
